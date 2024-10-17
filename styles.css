@@ -19,6 +19,10 @@ h1 {
   color: #333;
 }
 
+h2 {
+  color:red;
+}
+
 #blog-post {
   margin-top: 20px;
   font-size: 18px;
