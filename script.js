@@ -64,3 +64,9 @@ document.addEventListener("DOMContentLoaded", function () {
             "<h2>今日の記事</h2><p>今日は特に何もない普通の日です。ゆっくり休みましょう。</p>";
     }
 });
+
+//ふわっと浮かび上がる演出
+window.addEventListener('load', function() {
+    const fadeInText = document.querySelector('.fade-in-text');
+    fadeInText.classList.add('show');
+});
