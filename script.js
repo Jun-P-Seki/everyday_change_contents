@@ -1,4 +1,10 @@
 // script.js
+//ふわっと浮かび上がる演出
+window.addEventListener('load', function() {
+    const fadeInText = document.querySelector('.fade-in-text');
+    fadeInText.classList.add('show');
+});
+
 document.addEventListener("DOMContentLoaded", function () {
     const today = new Date();
     const month = today.getMonth() + 1; // 月は0から始まるので1を足す
@@ -65,8 +71,4 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 });
 
-//ふわっと浮かび上がる演出
-window.addEventListener('load', function() {
-    const fadeInText = document.querySelector('.fade-in-text');
-    fadeInText.classList.add('show');
-});
+
